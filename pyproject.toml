@@ -8,8 +8,9 @@ packages = [{include = "dp_demo_survey_data_app"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8.0,<3.12.0"
-datapane = "^0.16.1"
 sqlalchemy = "^2.0.4"
+datapane = "^0.16.1"
+jupyterlab = "^3.6.1"
 
 
 [build-system]
